@@ -1,1 +1,1 @@
-export { default as toUpperFirst} from './string'
+export { default as toUpperFirst} from './FUNC'
