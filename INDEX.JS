@@ -1,1 +1,1 @@
-export { default as toUpperFirst} from './FUNC'
+export { default as toUpperFirst} from './Func'
