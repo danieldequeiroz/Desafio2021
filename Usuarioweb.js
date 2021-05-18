@@ -1,7 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 import axios from 'axios';
-import PBusuario from '../component/PeopleList'
+import PBusuario from './PBusuario'
 
 
 
@@ -12,7 +12,7 @@ export default class Usuarioweb extends React.Component{
       peoples: []
     }
   }
- //http://demo5410349.mockable.io/pessoas/?nat=br&results=10
+ //iremos ver o component
   componentDidMount(){
     axios
     .get('https://randomuser.me/api/?nat=br&results=10')
