@@ -5,7 +5,7 @@ import PBusuario from '../component/PeopleList'
 
 
 
-export default class PeopleUsuarioweb extends React.Component{
+export default class Usuarioweb extends React.Component{
   constructor(props){
     super(props);
     this.state = {
